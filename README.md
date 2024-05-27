@@ -1,75 +1,23 @@
 ## Web Apotek
 
-Web Apotek kami memiliki berbagai fitur yang dirancang untuk memudahkan pengelolaan apotek. Berikut adalah beberapa fitur utama yang tersedia:
+Web Apotek kami memiliki berbagai fitur yang dirancang untuk memudahkan pengelolaan apotek. Sistem ini menggunakan otorisasi berbasis peran untuk mengatur akses ke fitur-fitur tertentu. Berikut adalah penjelasan rinci tentang fitur-fitur yang tersedia:
 
 ### Fitur Admin
-Setelah login sebagai admin, Anda dapat mengakses fitur-fitur berikut:
-- **Dashboard**: Menyediakan ringkasan statistik dan informasi penting terkait operasional apotek.
-- **Pelanggan**: Mengelola data pelanggan termasuk informasi kontak dan riwayat pembelian.
-- **Apoteker**: Mengelola data apoteker yang bekerja di apotek.
-- **Obat**: Mengelola data obat termasuk stok, harga, dan informasi lainnya.
-- **Supplier**: Mengelola data supplier yang menyediakan obat-obatan untuk apotek.
-- **Transaksi**: Mengelola dan memantau semua transaksi penjualan yang terjadi di apotek.
+Setelah login sebagai admin, Anda dapat mengakses semua fitur yang tersedia di sistem melalui side bar yang lengkap. Berikut adalah fitur-fitur yang tersedia untuk admin:
+
+- **Dashboard**: Menyediakan ringkasan statistik dan informasi penting terkait operasional apotek. Dashboard menampilkan data seperti jumlah transaksi, jumlah stok obat, dan data penting lainnya.
+- **Pelanggan**: Mengelola data pelanggan termasuk informasi kontak, riwayat pembelian, dan detail lainnya. Admin dapat menambah, mengedit, dan menghapus data pelanggan.
+- **Apoteker**: Mengelola data apoteker yang bekerja di apotek. Fitur ini memungkinkan admin untuk menambah, mengedit, dan menghapus data apoteker serta mengatur jadwal kerja mereka.
+- **Obat**: Mengelola data obat termasuk stok, harga, deskripsi, dan informasi lainnya. Admin dapat menambah obat baru, mengedit informasi obat, serta mengatur stok obat secara efisien.
+- **Supplier**: Mengelola data supplier yang menyediakan obat-obatan untuk apotek. Admin dapat menambah, mengedit, dan menghapus data supplier serta memantau pengiriman obat dari supplier.
+- **Transaksi**: Mengelola dan memantau semua transaksi penjualan yang terjadi di apotek. Admin dapat melihat detail setiap transaksi, mencetak faktur, dan melakukan pengembalian barang jika diperlukan.
+
+Dengan akses penuh ke semua fitur ini, admin dapat mengelola seluruh operasi apotek dengan mudah dan efisien.
 
 ### Fitur User
-Setelah login sebagai user, fitur yang dapat diakses adalah:
-- **Dashboard**: Menyediakan informasi penting terkait akun pengguna dan aktivitas terbaru.
-- **Transaksi**: Melihat riwayat transaksi pembelian obat yang telah dilakukan.
+Setelah login sebagai user, hanya fitur-fitur tertentu yang akan ditampilkan di side bar. Ini bertujuan untuk menyederhanakan pengalaman pengguna dan membatasi akses hanya pada fitur yang relevan bagi mereka. Berikut adalah fitur-fitur yang tersedia untuk user:
 
-## About Laravel
+- **Dashboard**: Menyediakan informasi penting terkait akun pengguna dan aktivitas terbaru. Dashboard untuk user menampilkan riwayat aktivitas mereka, seperti pembelian terbaru dan informasi akun.
+- **Transaksi**: Melihat riwayat transaksi pembelian obat yang telah dilakukan. User dapat melihat detail setiap transaksi, status pengiriman, dan mencetak bukti pembelian jika diperlukan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Otorisasi berbasis peran ini memastikan bahwa setiap pengguna hanya dapat mengakses fitur-fitur yang sesuai dengan peran dan tanggung jawab mereka di apotek, meningkatkan keamanan dan efisiensi sistem.
